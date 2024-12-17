@@ -1,0 +1,114 @@
+.presentation {
+  padding-top: 2rem;
+  text-align: center;
+  &__image {
+    width: 8rem;
+    border-radius: 20px;
+  }
+  &__text {
+    font-family: Arial, sans-serif, system-ui;
+    color: white;
+
+    &__introduction {
+      margin-inline: 2rem;
+    }
+  }
+}
+
+.stack {
+  text-align: center;
+  &__text {
+    font-family: Arial, sans-serif, system-ui;
+    color: white;
+  }
+  &__icons {
+    margin-inline: 2rem;
+    img {
+      margin-inline: 2px;
+    }
+    img:hover{
+      cursor: pointer;
+    }
+  }
+}
+
+.projects{
+  text-align: center;
+  margin-top: 2rem;
+  box-shadow: 4px;
+  margin-inline: 1rem;
+
+  &__title{
+    color: white;
+    font-family: Arial, sans-serif, system-ui;
+  }
+
+  &__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &__card{
+      margin-bottom: 2rem;
+      margin-inline: 1rem;
+      border-radius: 20px;
+      padding: 1.5rem;
+      background-color: #111;
+      min-width: 16rem;
+      max-width: 24rem;
+      text-align: center;
+      &__content{
+        color: white;
+        font-family: Arial, sans-serif, system-ui;
+        margin-inline: 16px;
+        &__tech{
+          &__icons{
+            img{
+              width: 3rem;
+            }
+          }
+        }
+      }
+      &__image{
+        border-radius: 20px;
+        width: 100%;
+      }
+    }
+    &__card:hover{
+      transition:1000ms;
+      box-shadow: 0rem 0rem 1rem 0.5rem #bbbbbb;
+    }
+  }
+}
+
+.cta{
+  font-family: Arial, sans-serif, system-ui;
+  text-align: center;
+  padding-bottom: 4rem;
+  &__title{
+    color: white;
+  }
+  &__subtitle{
+    color: white;
+  }
+  &__download-btn{
+    text-transform: uppercase;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: .125rem;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    
+    img{
+      position: relative;
+      top: 2px;
+      width: 1rem;
+    }
+  }
+  &__download-btn:hover{
+    transition: 1000ms;
+    transform: scale(1.2);
+    box-shadow: 0rem 0rem 0.75rem 0.1rem #bbbbbb;
+  }
+}

@@ -1,0 +1,19 @@
+.footer{
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: var(--footer-height);
+    &__text{
+        margin-inline: 5%;
+        font-family: Arial, sans-serif, system-ui;
+        color: white;
+    }
+    &__icons{
+        img{
+            margin-inline: 0.5rem;
+        }
+        
+    }
+}
+

@@ -1,0 +1,158 @@
+.header {
+  height: var(--header-height);
+}
+.header__navbar {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--header-height);
+}
+.header__navbar__hamburger-btn {
+  position: relative;
+  top: 0.25rem;
+  left: calc(100% - 4rem);
+  background-color: #222222;
+  border: none;
+}
+.header__navbar__hamburger-btn img {
+  width: 3rem;
+}
+
+.presentation {
+  padding-top: 2rem;
+  text-align: center;
+}
+.presentation__image {
+  width: 8rem;
+  border-radius: 20px;
+}
+.presentation__text {
+  font-family: Arial, sans-serif, system-ui;
+  color: white;
+}
+.presentation__text__introduction {
+  margin-inline: 2rem;
+}
+
+.stack {
+  text-align: center;
+}
+.stack__text {
+  font-family: Arial, sans-serif, system-ui;
+  color: white;
+}
+.stack__icons {
+  margin-inline: 2rem;
+}
+.stack__icons img {
+  margin-inline: 2px;
+}
+.stack__icons img:hover {
+  cursor: pointer;
+}
+
+.projects {
+  text-align: center;
+  margin-top: 2rem;
+  box-shadow: 4px;
+  margin-inline: 1rem;
+}
+.projects__title {
+  color: white;
+  font-family: Arial, sans-serif, system-ui;
+}
+.projects__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.projects__container__card {
+  margin-bottom: 2rem;
+  margin-inline: 1rem;
+  border-radius: 20px;
+  padding: 1.5rem;
+  background-color: #111;
+  min-width: 16rem;
+  max-width: 24rem;
+  text-align: center;
+}
+.projects__container__card__content {
+  color: white;
+  font-family: Arial, sans-serif, system-ui;
+  margin-inline: 16px;
+}
+.projects__container__card__content__tech__icons img {
+  width: 3rem;
+}
+.projects__container__card__image {
+  border-radius: 20px;
+  width: 100%;
+}
+.projects__container__card:hover {
+  transition: 1000ms;
+  box-shadow: 0rem 0rem 1rem 0.5rem #bbbbbb;
+}
+
+.cta {
+  font-family: Arial, sans-serif, system-ui;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.cta__title {
+  color: white;
+}
+.cta__subtitle {
+  color: white;
+}
+.cta__download-btn {
+  text-transform: uppercase;
+  background-color: #EEEEEE;
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 0.125rem;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+.cta__download-btn img {
+  position: relative;
+  top: 2px;
+  width: 1rem;
+}
+.cta__download-btn:hover {
+  transition: 1000ms;
+  transform: scale(1.2);
+  box-shadow: 0rem 0rem 0.75rem 0.1rem #bbbbbb;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: var(--footer-height);
+}
+.footer__text {
+  margin-inline: 5%;
+  font-family: Arial, sans-serif, system-ui;
+  color: white;
+}
+.footer__icons img {
+  margin-inline: 0.5rem;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #222222;
+}
+
+:root {
+  --header-height: 4rem;
+  --footer-height: 6rem;
+}/*# sourceMappingURL=style.css.map */
